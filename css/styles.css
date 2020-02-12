@@ -12,3 +12,6 @@
 body {
   background: url(img/asset1.svg);
 }
+img {
+  scale: .5;
+}
