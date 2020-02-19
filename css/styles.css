@@ -9,9 +9,11 @@
     outline: 1px dotted black;
 }
 
-body {
-  background: url(img/asset1.svg);
-}
-img {
-  scale: .5;
+/* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+ */
+/* Doodle Stage */
+#stage {
+  background: #ccc;
+  height: 300px;
+  width: 600px;
 }
