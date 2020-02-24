@@ -13,34 +13,62 @@
  */
 /* Doodle Stage */
 
+
+
 #stage {
   /* background: #ccc; */
+  padding-top: 4em;
   height: 400px;
-  width: 900px;
+  width: 100%;
   display: flex;
 }
 #search {
   display: flex;
-  align-content: center;
   justify-content: space-evenly;
-  scale: .7;
+  /* scale: .7; */
+  align-content: center;
+}
+
+.gs {
+  margin-right: -15em ;
+}
+
+.lucky {
+  margin-left: -15em;
 }
 
 #search button {
   box-shadow: 2px 2px 1px 1px #e6e6e6;
+  border: none;
+  border-radius: 22px;
+  background: rgb(232, 227, 253);
 }
 
 input {
-  width: 65%;
-  margin-left: 6em;
+  width: 40em;
+  margin-left: 27%;
   margin-bottom: 1em;
-  box-shadow: 2px 2px 1px 1px #e6e6e6;
-
-}
-
-svg {
-  scale: .7;
-  margin-left: -14em;
+  box-shadow: 2px 2px 1px 1px #f3efef;
+  border: .5px solid rgb(215, 207, 252);
   margin-top: 2em;
-  margin-bottom: -9em;
+  border-radius: 22px;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 2.5em;
+  opacity: 1;
+  position: relative;
+  padding-left: 1em;
 }
+
+ /* #tulip .f {
+  margin-top: -400px;
+ } */
+
+
+.whole{
+  scale: 1.2;
+  margin-left: 16%;
+  margin-top: 2em;
+  /* margin-bottom: -em; */
+}
+
