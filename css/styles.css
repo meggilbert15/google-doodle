@@ -12,8 +12,35 @@
 /* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
  */
 /* Doodle Stage */
+
 #stage {
-  background: #ccc;
-  height: 500px;
-  width: 700px;
+  /* background: #ccc; */
+  height: 400px;
+  width: 900px;
+  display: flex;
+}
+#search {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  scale: .7;
+}
+
+#search button {
+  box-shadow: 2px 2px 1px 1px #e6e6e6;
+}
+
+input {
+  width: 65%;
+  margin-left: 6em;
+  margin-bottom: 1em;
+  box-shadow: 2px 2px 1px 1px #e6e6e6;
+
+}
+
+svg {
+  scale: .7;
+  margin-left: -14em;
+  margin-top: 2em;
+  margin-bottom: -9em;
 }
