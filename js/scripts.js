@@ -28,13 +28,6 @@ gsap.timeline()
      }
 
     );
-//     .from(".google", {
-//   opacity: 0,
-//   duration: 2,
-//   stagger: {
-//   each: .2,
-//   from: 'edges',
-//   }
-// });
+
 
 
