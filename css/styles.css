@@ -60,15 +60,19 @@ input {
   padding-left: 1em;
 }
 
- /* #tulip .f {
-  margin-top: -400px;
- } */
 
+
+#test {
+  margin-left: -685px;
+  margin-top: 167px;
+  z-index: 2;
+  scale: 1.5;
+}
 
 .whole{
   scale: 1.2;
   margin-left: 16%;
   margin-top: 2em;
+  z-index: 1;
   /* margin-bottom: -em; */
 }
-
