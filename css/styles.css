@@ -42,6 +42,7 @@
   border: none;
   border-radius: 22px;
   background: rgb(232, 227, 253);
+
 }
 
 input {
@@ -63,11 +64,15 @@ input {
 
 
 #test {
-  margin-left: -685px;
-  margin-top: 167px;
+  margin-left: -43em;
+  margin-top: 10.4em;
+  /* display: flex;
+  margin-left: -42rem;
+  margin-top: 11rem; */
   z-index: 2;
   scale: 1.5;
 }
+
 
 .whole{
   scale: 1.2;
@@ -76,3 +81,7 @@ input {
   z-index: 1;
   /* margin-bottom: -em; */
 }
+
+
+
+
