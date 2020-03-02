@@ -18,21 +18,20 @@ gsap.timeline()
          }
          );
 
-
 gsap.timeline()
     .from('#bunchesLeaves', 
     {   opacity: 0,
         scale: 0,
         transformOrigin:"bottom",
         duration: 1,
-        delay: .001,
+        delay: .01,
      } )
      .from('#bunches', 
      { opacity: 0,
         scale: 0,
         transformOrigin:"bottom",
         duration: 1,
-        delay: 0,
+        delay: -.2,
      }
     );
 

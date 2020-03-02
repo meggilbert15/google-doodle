@@ -18,32 +18,33 @@
 #stage {
   /* background: #ccc; */
   padding-top: 4em;
-  height: 400px;
-  width: 100%;
+  max-height: 400px;
+  max-width: 100%;
   display: flex;
+  align-content: center;
+  position: relative;
 }
 #search {
   display: flex;
-  justify-content: space-evenly;
+  margin-left: 39%;
+  margin-right: 39%;
+
+  justify-content: space-between;
+  height: 2em;
   /* scale: .7; */
   align-content: center;
 }
 
-.gs {
-  margin-right: -15em ;
-}
-
-.lucky {
-  margin-left: -15em;
-}
 
 #search button {
   box-shadow: 2px 2px 1px 1px #e6e6e6;
   border: none;
   border-radius: 22px;
+  padding-right: .6em;
+  padding-left: .6em;
   background: rgb(232, 227, 253);
-
 }
+
 
 input {
   width: 40em;
@@ -62,10 +63,10 @@ input {
 }
 
 
-
 #test {
-  margin-left: -43em;
-  margin-top: 10.4em;
+  position: sticky;
+  margin-left: -43rem;
+  margin-top: 10.4rem;
   /* display: flex;
   margin-left: -42rem;
   margin-top: 11rem; */
@@ -77,8 +78,9 @@ input {
 .whole{
   scale: 1.2;
   margin-left: 16%;
+  
   margin-top: 2em;
-  z-index: 1;
+  /* z-index: 1; */
   /* margin-bottom: -em; */
 }
 
